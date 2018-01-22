@@ -1,6 +1,6 @@
 # Webpack 2 - Starter Files
 
-Learn how to setup Webpack 2 from scratch, by following the complete playlist on YouTube.
+Learn how to setup [Webpack 2](https://webpack.js.org/) from scratch, by following the complete playlist on YouTube.
 Contents of lessons in the `content.md` file.
 
 ## Webpack 2 Playlist
