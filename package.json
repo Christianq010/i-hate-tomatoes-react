@@ -1,0 +1,16 @@
+{
+    "name": "webpack-starter",
+    "version": "1.0.0",
+    "description": "Following a youtube tutorial on webpack",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack -d --watch",
+        "prod": "webpack -p"
+    },
+    "author": "Christiaan Quyn",
+    "license": "ISC",
+    "dependencies": {
+        "D": "^1.0.0",
+        "webpack": "^3.10.0"
+    }
+}
