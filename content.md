@@ -2,6 +2,7 @@
 
 1. Create directory and run `init npm`.
 2. Webpack
+### Setting up Webpack
 _Globally_ 
 ```
 sudo npm -g i webpack
@@ -25,11 +26,38 @@ sudo npm i D webpack
  ```
  dev": "webpack -d --watch" 
  ```
+ ### Config HTML, CSS
  * Run `npm run dev` to run new script.
- * Add the HTMl plug in to the project, and then add to the webpack config file.
+ * Add the [HTMl plug in](https://github.com/jantimon/html-webpack-plugin) to the project, and then add to the webpack config file.
  ```
  sudo npm i html-webpack-plugin --save-dev
  ```
+ * Install [css loader](https://www.npmjs.com/package/css-loader)
+ ```
+ sudo npm install --save-dev css-loader
+ ```
+ * Install [style loader](https://www.npmjs.com/package/style-loader)
+ ```
+ sudo npm install style-loader --save-dev
+ ```
+ * Install [File Extracter](https://www.npmjs.com/package/extract-text-webpack-plugin)
+ ```
+ sudo npm i extract-text-webpack-plugin -D
+ ```
+ * Install [Sass Loader](https://www.npmjs.com/package/sass-loader)
+ ```
+ sudo npm install sass-loader node-sass --save-dev
+ ```
+ ### Install and configure web server
+ * Install [web-server](https://www.npmjs.com/package/webpack)
+ ```
+ sudo npm install --save-dev webpack
+ ```
+ * Install [web-dev-server](https://www.npmjs.com/package/webpack-dev-server)
+ ```
+ sudo npm i webpack-dev-server -D
+ ```
+
 
 
 3. 
