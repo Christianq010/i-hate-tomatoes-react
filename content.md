@@ -60,6 +60,19 @@ sudo npm i D webpack
  * Web Server documentation[here](https://webpack.js.org/configuration/dev-server/#devserver)
  ```
  ```
+ ### Install React and React DOM
+ * React [Docs](https://reactjs.org/docs/try-react.html)
+ ```
+ sudo npm i -D react react-dom 
+ ```
+ * Install [babel](https://babeljs.io/) (for ES6 and JSX-syntax)
+ ```
+ sudo npm i -D babel babel-preset-react babel-preset-es2015
+ ```
+ * Install babel dependencies for webpack [set up](https://babeljs.io/docs/setup/#installation)
+ ```
+ sudo npm install --save-dev babel-loader babel-core
+ ```
 
 
 3. 
