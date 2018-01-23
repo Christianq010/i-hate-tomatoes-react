@@ -9,14 +9,22 @@ module.exports = {
         filename: 'app.bundle.js'
     },
     module: {
-        rules: [{
-            test: /\.scss$/,
-            use: ExtractTextPlugin.extract({
-                fallback: 'style-loader',
-                use: ['css-loader', 'sass-loader'],
-                publicPath: '/dist'
-            })
-        }]
+            rules: [
+            {
+                test: /\.scss$/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ['css-loader', 'sass-loader'],
+                    publicPath: '/dist'
+                })
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: 'babel-loader'
+                
+            }
+        ]
     },
     devServer: {
         contentBase: path.join(__dirname, "dist"),
