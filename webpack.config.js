@@ -18,6 +18,13 @@ module.exports = {
             })
         }]
     },
+    devServer: {
+        contentBase: path.join(__dirname, "dist"),
+        compress: true,
+        stats: "errors-only",
+        open: true
+            // port: 9000
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Project Demo',
