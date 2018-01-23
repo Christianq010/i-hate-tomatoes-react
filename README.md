@@ -33,3 +33,6 @@ devServer: {
     openPage: '', //add this to solve it
 }
 ```
+
+### Troubleshooting 
+* New syntax for `webpack.config.js` settings - https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/569
