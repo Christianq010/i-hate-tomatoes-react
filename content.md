@@ -73,6 +73,16 @@ sudo npm i D webpack
  ```
  sudo npm install --save-dev babel-loader babel-core
  ```
+ * Install rimraf and add run -clean- script to `package.json`
+ ```
+ sudo npm i -D rimraf
+ ```
+ ### Install webpack Image Loader
+ * 
+ ```
+ sudo npm i -D file-loader 
+ ```
+
 
 
 3. 
