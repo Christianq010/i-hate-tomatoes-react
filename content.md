@@ -78,9 +78,13 @@ sudo npm i D webpack
  sudo npm i -D rimraf
  ```
  ### Install webpack Image Loader
- * 
+ * File Loader
  ```
  sudo npm i -D file-loader 
+ ```
+ * Image loader
+ ```
+ sudo npm install image-webpack-loader --save-dev
  ```
 
 
