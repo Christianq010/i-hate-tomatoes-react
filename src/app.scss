@@ -1,8 +1,12 @@
 body {
     background-color: pink;
+    // background: url('./img/browser.svg') center center no-repeat;
     p {
         .class {
             color: aliceblue;
         }
+    }
+    .class {
+        display: block;
     }
 }
