@@ -1,9 +1,6 @@
-const css = require('./app.scss');
-
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const App = () => {
+export const App = () => {
     return (
     <div className="some-div">    
         <h1 className="some-shit">Hello World!</h1>
@@ -11,8 +8,3 @@ const App = () => {
     </div>
     )
 }
-
-ReactDOM.render( 
-    <App />,
-    document.getElementById('root')
-);
