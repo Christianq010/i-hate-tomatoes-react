@@ -1,4 +1,4 @@
-const css = require('./app.scss');
+const css = require('./css/app.scss');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
