@@ -1,18 +1,13 @@
-# Webpack 2 - Starter Files
+# React
 
-Learn how to setup [Webpack 2](https://webpack.js.org/) from scratch, by following the complete playlist on YouTube.
+Learn how to setup [React](https://webpack.js.org/) from scratch, by following the complete playlist on YouTube.
 Contents of lessons in the `content.md` file.
 
-## Webpack 2 Playlist
-[Watch on YouTube](https://www.youtube.com/watch?v=JdGnYNtuEtE&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
+## React Playlist
+[Watch on YouTube](https://www.youtube.com/playlist?list=PLkEZWD8wbltnXlfyhS5qSMTNb26utkOkI)
 
-## Webpack 2 Tutorials
-
-* [Webpack 2 - Installation and Config](https://www.youtube.com/watch?v=JdGnYNtuEtE&index=1&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
-* [Webpack 2 - HTML Webpack Plugin](https://www.youtube.com/watch?v=cKTDYSK0ArI&index=2&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
-* [Webpack 2 - Style, CSS and Sass loaders](https://www.youtube.com/watch?v=m7V0OackwxY&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY&index=3)
-* [Webpack 2 with Webpack Dev Server](https://www.youtube.com/watch?v=gH4LxB6NkNc&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY&index=4)
-* [Webpack 2 with Webpack Dev Server Configuration](https://www.youtube.com/watch?v=soI7X-7OSb4&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY&index=5)
+## Usage
+> This project was started by cloning the following [starter project](https://github.com/Christianq010/i-hate-tomatoes-webpack2). It is a basic template for setting up Webpack 3.
 
 ## How to use the files?
 
@@ -21,18 +16,6 @@ Contents of lessons in the `content.md` file.
 3. Run `npm run dev`
 4. New browser window should open with a green text on pink background.
 
-Don't forget to [subscribe to my channel](https://www.youtube.com/channel/UC7O6CntQoAI-wYyJxYiqNUg?sub_confirmation=1) for more front-end videos.
-
-## Are you getting localhost:8080/undefined ?
-
-As [Mikael-Sundstrom](https://github.com/Ihatetomatoes/webpack-101-starter/issues/2) pointed out, you can solve it by adding this to your config.
-
-```js
-devServer: {
-    open: true,
-    openPage: '', //add this to solve it
-}
-```
-
 ### Troubleshooting 
-* New syntax for `webpack.config.js` settings - https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/569
+* React is no more shipped with PropTypes. Install Proptypes as a package
+[Docs](https://reactjs.org/docs/typechecking-with-proptypes.html)
